@@ -1,0 +1,31 @@
+{
+  "name": "vedatakdogan/apple-client-php",
+  "description": "It provides a php service where you can use auth services for Apple devices.",
+  "keywords": [
+    "apple",
+    "sign-in",
+    "sign-out",
+    "apple revoke",
+    "revoke token",
+    "remove icloud signed application account",
+    "Apple ID"
+  ],
+  "autoload": {
+    "psr-4": {
+      "VedatAkdogan\\AppleClient\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Vedat Akdoğan",
+      "email": "vedatakdogan@live.com"
+    },
+    {
+      "name": "Muammer Topçu",
+      "email": "muammertop@outlook.com"
+    }
+  ],
+  "require": {
+    "web-token/jwt-framework": "^2.0"
+  }
+}
