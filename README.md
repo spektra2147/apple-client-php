@@ -28,6 +28,13 @@ Rather than using simple strings as OAuth client secrets, Apple has decided to u
 - Revoke
 
 
+
+You can review this example usage
+
+      $appleClient = new \VedatAkdogan\AppleClient\AuthApple('xxxxxxxx.p8','XXXXXXXXXX','com.mapilio.main','XXXXXXXXXX');
+      $remove_apple_account = $appleClient->revoke($request->auth_code);
+
+
 For more, visit the Apple Official Developer page.
 
 https://developer.apple.com/documentation/sign_in_with_apple/generate_and_validate_tokens
