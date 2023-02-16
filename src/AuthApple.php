@@ -12,7 +12,7 @@ class AuthApple
 {
 
     /**
-     * Private key file from Applw
+     * Private key file from Apple
      * Ex: 'AuthKey_XXXXXXXXXX.p8' in laravel /public path
      * https://support.mobiroller.com/en/knowledgebase/5-how-to-create-a-key-file-p8-on-apple-to-send-push-notifications/
      */
